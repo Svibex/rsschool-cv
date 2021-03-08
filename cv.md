@@ -20,6 +20,30 @@ I am planning to become a Front-end developer.
 * Advanced PhotoShop
 * Advanced MicroSoft Office
 
+### Code examples
+```
+function fizzbuzz(n) {
+let arr = [];
+for (let i=1; i<=n; i++) {
+  if (i % 15 === 0) {
+    arr.push('FizzBuzz');
+  }
+else if (i % 3 === 0) {
+  arr.push('Fizz');
+}
+else if (i % 5 === 0) {
+  arr.push('Buzz');
+}
+else {
+  arr.push(i);
+  }
+}
+  return arr;
+}
+```
+```
+var isAnagram = (test, original) => test.toLowerCase().split('').sort().join() === original.toLowerCase().split('').sort().join() ? true : false;
+```
 ### My seniority
 I work as an engineer at the St. Petersburg Mining University
 in the department of mechanics since November 2020 .
