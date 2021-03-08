@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Italic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 113px;
+    width: 85px;
+    margin-left: 50px;
+}
+
+.aboutMyself, .seniority, .education {
+    width: 500px;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav p {
+    margin: 50px 50px 20px 50px;
+}
+
+h1, h2 {
+    color: darkblue;
+}

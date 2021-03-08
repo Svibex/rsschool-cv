@@ -3,67 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><h1>Rybchenko Svetlana Sergeevna</h1></header>
-
-<h2>My contacts</h2>
-* phone: +7 (931) 392-87-81
-* e-mail: svtr.17@ya.ru
-
+<header>
+    <h1>Rybchenko Svetlana Sergeevna</h1>
+</header>
+<main>
+<section>
+    <div>
+        <h2>My contacts</h2>
+        <ul>
+            <li>phone: +7 (931) 392-87-81</li>
+            <li>e-mail: svtr.17@ya.ru</li>
+        </ul>
+    </div>
+    <img src="sveta.jpg" alt="my photo">
+</section>
 <h2>About myself</h2>
-I was born in St. Petersburg on January 17, 1995.
-<br>I have always been interested in technical sciences.
-<br>My personal qualities: analytical mindset, efficiency,
-<br>communication skills, learning ability, responsibility.
-<br>Now I started to learn the basics of Java Script.
-<br>I am planning to become a Front-end developer.
-
+<p class="aboutMyself"> I was born in St. Petersburg on January 17, 1995.
+    I always have been interested in technical sciences.
+    My personal qualities: analytical mindset, efficiency,
+    communication skills, learning ability, responsibility.
+    Now I started to learn the basics of Java Script.
+    I am planning to become a Front-end developer.
+</p>
 <h2>My skills</h2>
-* Basic HTML
-* Basic CSS
-* Basic Java Script
-* Advanced AutoCAD
-* Advanced PhotoShop
-* Advanced MicroSoft Office
-
+<ul>
+    <li>Basic HTML</li>
+    <li>Basic CSS</li>
+    <li>Basic Java Script</li>
+    <li>Advanced AutoCAD</li>
+    <li>Advanced PhotoShop</li>
+    <li>Advanced MicroSoft Office</li>
+</ul>
 <h2>Code examples</h2>
-```
-function fizzbuzz(n) {
-let arr = [];
-for (let i=1; i<=n; i++) {
-if (i % 15 === 0) {
-arr.push('FizzBuzz');
-}
-else if (i % 3 === 0) {
-arr.push('Fizz');
-}
-else if (i % 5 === 0) {
-arr.push('Buzz');
-}
-else {
-arr.push(i);
-}
-}
-return arr;
-}
-```
-```
+    <h3>Example 1</h3>
+    <code>
+function fizzbuzz(n) {<br>
+let arr = [];<br>
+for (let i=1; i<=n; i++) {<br>
+if (i % 15 === 0) {<br>
+arr.push('FizzBuzz');<br>
+}<br>
+else if (i % 3 === 0) {<br>
+arr.push('Fizz');<br>
+}<br>
+else if (i % 5 === 0) {<br>
+arr.push('Buzz');<br>
+}<br>
+else {<br>
+arr.push(i);<br>
+}<br>
+}<br>
+return arr;<br>
+    }
+</code>
+    <h3>Example 2</h3>
+<code>
 var isAnagram = (test, original) => test.toLowerCase().split('').sort().join() === original.toLowerCase().split('').sort().join() ? true : false;
-```
+</code>
 <h2>My seniority</h2>
-I work as an engineer at the St. Petersburg Mining University
-in the department of mechanics since November 2020 .
-
+<p class="seniority"> I work as an engineer at the St. Petersburg Mining University
+in the department of mechanics since November 2020.
+</p>
 <h2>My education</h2>
+    <p class="education">
 I graduated from St. Petersburg Mining University in 2020.
 I started learning Java Script at RSS school in March 2021
-
+    </p>
 <h2>Foreign language</h2>
-English - B1 (Pre-Intermediate)
+    <p>English - B1 (Pre-Intermediate)</p>
+</main>
 <footer>
-
+<nav>
+    <p><a href="https://github.com/Svibex">My GitHub profile</a></p>
+    <p>Year of creation: 2021</p>
+    <p><a href="https://rs.school/js/">Link to course</a></p>
+</nav>
 </footer>
 </body>
 </html>
